@@ -11,4 +11,6 @@ fun main(args: Array<String>) {
     val arrais= Array(10){ Random.nextInt(50,250)}
 
     arrais.forEach { println(it)}
+
+    //no se que pedias
 }
