@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 fun main(args: Array<String>) {
     println("Hello World!")
 
@@ -6,5 +8,7 @@ fun main(args: Array<String>) {
     for (tabla in Arrayy<Int>(10,arrai).tablaDel6)
         println(tabla)
 
+    val arrais= Array(10){ Random.nextInt(50,250)}
 
+    arrais.forEach { println(it)}
 }
