@@ -1,6 +1,10 @@
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    for (tabla in Arrayy<Int>(10).tablaDel6)
+    var arrai:(Int)->Int={num:Int->(num*6)}
+
+    for (tabla in Arrayy<Int>(10,arrai).tablaDel6)
         println(tabla)
+
+
 }

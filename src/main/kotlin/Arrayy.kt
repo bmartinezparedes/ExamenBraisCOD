@@ -1,4 +1,4 @@
-class Arrayy<T>(var tamañoArray:Int) {
+class Arrayy<T>(var tamañoArray:Int,var arrayInit:(Int)->Int) {
 
-    val tablaDel6=Array<Int>(tamañoArray,{it*6})
+    var tablaDel6=Array<Int>(tamañoArray,arrayInit)
 }
